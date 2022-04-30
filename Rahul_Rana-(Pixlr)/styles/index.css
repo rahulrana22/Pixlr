@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Francois+One&display=swap');
+.home-main{
+    background: url('../images/hero.jpg');
+    background-size: cover ;
+    min-height: 100vh;
+ }
+
+ .hero-content{
+     color: whitesmoke;
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+ }
+
+ #hero-heading
+ { 
+     font-size: 50px;
+    font-family: 'Cutive', serif;
+    font-family: 'Francois One', sans-serif;
+ }
+
+ #hero-para{
+    /* font-family: 'Cutive', serif;
+    font-family: 'Francois One', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem; 
+    margin: 0.5rem 0;
+}
+
+ .gradient-btn{
+
+    width: 200px;
+    height:45px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+ .gradient-btn:hover{
+     
+    color: black;
+    background-color: gold;
+
+ }
+
+ .about{
+
+    padding:1rem;
+    text-align: center;
+ }
+
+ .about h1{
+
+    font-size: 4rem;
+    font-family: 'Cutive', serif;
+    font-family: 'Francois One', sans-serif;
+    margin-bottom: 80px;
+    
+ }
+ .about p{
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+ 
+ .about-sub{
+
+    display:flex;
+    max-width: 800px;
+    margin: 1rem auto;
+
+ }
+ .about-sub h2{
+    font-family: 'Cutive', serif;
+    font-family: 'Francois One', sans-serif;
+ }
+
+ /* making the image in the about-sub as the direct child */
+ .about-sub > img{
+     max-height:320px;
+     width:500px;
+     max-width: 90%;
+     text-align: left;
+ }
+
+ .sub-sub-about{
+     text-align: left;
+ }
+
+ .sub-sub-about a{
+    width: 100px;
+    height:35px;
+}
+
+.sub-sub-about2{
+    text-align: left;
+}
+
+.sub-sub-about2 a{
+   width: 100px;
+   height:35px;
+   
+}
+
+
+/* for the subscribe section */
+.subscribe{
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem;
+    border: 4px solid black;
+    border-radius: 15px;
+    width:70vw;
+    margin: 15px auto;
+}
+.subscribe h2{
+    font-family: 'Cutive', serif;
+    font-family: 'Francois One', sans-serif;
+}
+
+.subscribe-box{
+    padding: 10px;
+}
+
+.subscribe-box input{
+    max-width: 300px;
+    width: 65%;
+    padding: 5px 10px;
+    height: 40px;
+}
+
+.subscribe-box button{
+    border: none;
+    background-color: #0072ff;
+    height: 40px;
+    padding: 0 1rem;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
